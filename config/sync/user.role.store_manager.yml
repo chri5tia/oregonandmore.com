@@ -1,0 +1,14 @@
+uuid: b439df8a-69ed-4264-b543-1b22efe6cd98
+langcode: en
+status: true
+dependencies: {  }
+id: store_manager
+label: 'Store Manager'
+weight: -8
+is_admin: null
+permissions:
+  - 'access commerce administration pages'
+  - 'access toolbar'
+  - 'access tour'
+  - 'edit own comments'
+  - 'view the administration theme'

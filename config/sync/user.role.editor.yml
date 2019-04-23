@@ -1,0 +1,36 @@
+uuid: 394038e9-18ca-4985-8a6e-d5e23976ee37
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: -7
+is_admin: null
+permissions:
+  - 'access backup files'
+  - 'access content overview'
+  - 'access in-place editing'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer account settings'
+  - 'administer comments'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'bypass node access'
+  - 'create page content'
+  - 'create terms in tags'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'delete terms in tags'
+  - 'edit any page content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'perform backup'
+  - 'revert page revisions'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view the administration theme'
