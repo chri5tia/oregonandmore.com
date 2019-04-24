@@ -1,0 +1,7 @@
+uuid: 9f254baa-53fa-4fa5-9b50-a8cec929fed0
+langcode: en
+status: true
+dependencies: {  }
+id: weight
+label: Weight
+elementType: radios

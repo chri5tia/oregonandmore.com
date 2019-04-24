@@ -1,0 +1,28 @@
+uuid: 84511426-3118-41ba-b230-2537b0db6a5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: jSLJ3sJUecEmCmbbB-ISvExMtHpzXsFIguGKTTI6lPA
+id: bartik_checkout_progress
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Checkout progress'
+  provider: commerce_checkout
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/checkout/*'
+    negate: false
+    context_mapping: {  }

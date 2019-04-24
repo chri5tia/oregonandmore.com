@@ -29,6 +29,7 @@ permissions:
   - 'edit terms in tags'
   - 'perform backup'
   - 'revert page revisions'
+  - 'use text format drag_and_drop'
   - 'use text format full_html'
   - 'view all revisions'
   - 'view own unpublished content'

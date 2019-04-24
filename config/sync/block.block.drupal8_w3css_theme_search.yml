@@ -1,0 +1,22 @@
+uuid: 7c65d53e-5a92-4094-b7f4-bef675d422fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - drupal8_w3css_theme
+_core:
+  default_config_hash: BsbW26bDVnavqpfRuOp3gecOtsVAsF3_ATPD5E856-4
+id: drupal8_w3css_theme_search
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

@@ -1,15 +1,17 @@
-uuid: 3af67f20-f4bc-4ea7-8bee-2234a31e1bae
+uuid: 407c4ed3-5799-43a5-ad93-b85afcec42fa
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - bartik
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+  default_config_hash: mmcopYofUmb3PLb10rD6utbPoo6_zpxaX4yf3i4xmH8
 id: bartik_page_title
 theme: bartik
 region: content
-weight: -50
+weight: -8
 provider: null
 plugin: page_title_block
 settings:
@@ -17,4 +19,9 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/product/*\r\n/products*"
+    negate: true
+    context_mapping: {  }

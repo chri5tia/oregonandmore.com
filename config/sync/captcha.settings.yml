@@ -1,0 +1,11 @@
+default_challenge: recaptcha/reCAPTCHA
+description: 'Let us know you''re a human to help us control spam.'
+administration_mode: true
+allow_on_admin_pages: true
+add_captcha_description: true
+default_validation: 1
+persistence: 3
+enable_stats: false
+log_wrong_responses: false
+_core:
+  default_config_hash: pfrv6lPS72f5WG1UB4wHkgQV2invlHwVpaCy_mY-ClQ

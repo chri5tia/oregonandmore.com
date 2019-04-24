@@ -1,0 +1,22 @@
+uuid: 625ef80a-3745-417b-ba45-e73ebc1b9978
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+_core:
+  default_config_hash: bSh87nayw-Fh7x0auxPJoNHFokn1zFwX9KSyLpcH0Bg
+id: drupal8_w3css_subtheme_content
+theme: drupal8_w3css_subtheme
+region: content
+weight: 3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

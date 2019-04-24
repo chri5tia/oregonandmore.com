@@ -11,4 +11,5 @@ permissions:
   - 'access toolbar'
   - 'access tour'
   - 'edit own comments'
+  - 'use text format drag_and_drop'
   - 'view the administration theme'

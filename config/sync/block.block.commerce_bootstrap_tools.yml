@@ -1,4 +1,4 @@
-uuid: 414f69af-7373-4a81-a293-30ad9b9b7cf3
+uuid: d83387a3-99cd-498b-8c3a-c40eb991fc33
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,14 @@ dependencies:
     - system.menu.tools
   module:
     - system
+    - user
   theme:
-    - bartik
+    - commerce_bootstrap
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
-region: sidebar_first
+id: commerce_bootstrap_tools
+theme: commerce_bootstrap
+region: content
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'
@@ -23,4 +24,12 @@ settings:
   label_display: visible
   level: 1
   depth: 0
-visibility: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      editor: editor
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

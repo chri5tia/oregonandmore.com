@@ -1,11 +1,11 @@
 uuid: b464a80e-5368-4222-a5bf-bcf50d789604
-name: 'Oregon And More'
+name: 'Oregon and More'
 mail: oregonandmore@thedotconcept.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /store/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
