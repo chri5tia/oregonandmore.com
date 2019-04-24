@@ -1,6 +1,6 @@
 default_challenge: recaptcha/reCAPTCHA
 description: 'Let us know you''re a human to help us control spam.'
-administration_mode: true
+administration_mode: false
 allow_on_admin_pages: true
 add_captcha_description: true
 default_validation: 1

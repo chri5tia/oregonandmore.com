@@ -1,0 +1,9 @@
+uuid: 0544a499-238d-4d46-8b87-07723889639e
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Commerce product categories'
+hierarchy: 0
+weight: 0
