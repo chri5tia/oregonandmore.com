@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3224d7baad67fddea67e954beb0a3e74",
+    "content-hash": "9947ae712d3d8fae37da433d3f0be28e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3345,56 +3345,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
             }
-        },
-        {
-            "name": "drupal/grapesjs",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/grapesjs.git",
-                "reference": "49d6c26e9ebdfe397f69c1a98d6822c86d66caa9"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1546712580",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Coyote6GraphX",
-                    "homepage": "https://www.drupal.org/user/2686603"
-                },
-                {
-                    "name": "aryashreep",
-                    "homepage": "https://www.drupal.org/user/1469492"
-                },
-                {
-                    "name": "cmcintosh",
-                    "homepage": "https://www.drupal.org/user/391852"
-                }
-            ],
-            "description": "Allows editor to be switched to a GrapesJS editor for fast page creation. Great for sales pages and use by clients.",
-            "homepage": "https://www.drupal.org/project/grapesjs",
-            "support": {
-                "source": "https://git.drupalcode.org/project/grapesjs"
-            },
-            "time": "2019-01-05T18:18:30+00:00"
         },
         {
             "name": "drupal/inline_entity_form",
@@ -9034,7 +8984,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/grapesjs": 20,
         "drupal/stage_file_proxy": 10
     },
     "prefer-stable": true,

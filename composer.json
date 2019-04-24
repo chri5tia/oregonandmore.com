@@ -28,7 +28,6 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/d8w3css": "^1.15",
-        "drupal/grapesjs": "1.x-dev",
         "drupal/jcarousel": "^4.0",
         "drupal/recaptcha": "^2.4",
         "drush/drush": "^9.6",
