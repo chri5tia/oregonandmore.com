@@ -20,7 +20,9 @@ module:
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
+  commerce_shipping: 0
   commerce_store: 0
+  commerce_usps: 0
   config: 0
   config_filter: 0
   config_split: 0
@@ -29,6 +31,7 @@ module:
   datetime: 0
   dblog: 0
   devel: 0
+  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
@@ -48,6 +51,7 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  physical: 0
   profile: 0
   quickedit: 0
   rdf: 0
@@ -57,6 +61,7 @@ module:
   state_machine: 0
   system: 0
   taxonomy: 0
+  taxonomy_menu: 0
   text: 0
   toolbar: 0
   tour: 0

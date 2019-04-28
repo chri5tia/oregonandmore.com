@@ -1,0 +1,62 @@
+uuid: 11b1ec70-e5fa-45bc-8767-893fa794bde0
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.jerky
+    - field.field.commerce_product.jerky.body
+    - field.field.commerce_product.jerky.field_brand
+    - field.field.commerce_product.jerky.field_categories
+    - field.field.commerce_product.jerky.stores
+    - field.field.commerce_product.jerky.variations
+  module:
+    - commerce_product
+    - text
+id: commerce_product.jerky.default
+targetEntityType: commerce_product
+bundle: jerky
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_brand:
+    weight: 11
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_categories:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 10
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

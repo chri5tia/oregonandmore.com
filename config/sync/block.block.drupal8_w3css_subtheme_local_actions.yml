@@ -8,8 +8,8 @@ _core:
   default_config_hash: w-d6upw9OPYM56rV28IpC2TTtjXIzNCgfXBECIjwMLI
 id: drupal8_w3css_subtheme_local_actions
 theme: drupal8_w3css_subtheme
-region: content
-weight: 1
+region: sidebar_second
+weight: -6
 provider: null
 plugin: local_actions_block
 settings:

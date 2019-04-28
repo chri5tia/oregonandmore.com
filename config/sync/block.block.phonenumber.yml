@@ -1,0 +1,25 @@
+uuid: 8a342bd9-ac4c-4fbf-9176-579609d2baef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b31f48e3-b643-46d9-ab3c-cd2eb7e1088f'
+  module:
+    - block_content
+  theme:
+    - drupal8_w3css_subtheme
+id: phonenumber
+theme: drupal8_w3css_subtheme
+region: primary_menu
+weight: -8
+provider: null
+plugin: 'block_content:b31f48e3-b643-46d9-ab3c-cd2eb7e1088f'
+settings:
+  id: 'block_content:b31f48e3-b643-46d9-ab3c-cd2eb7e1088f'
+  label: 'Phone Number'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

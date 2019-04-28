@@ -1,0 +1,16 @@
+uuid: 9b7725bf-6a54-4b15-83d7-c02732dc0afc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.brands
+    - taxonomy.vocabulary.brands
+id: product_brands
+label: 'Product brands'
+vocabulary: brands
+menu: brands
+expanded: true
+depth: 0
+menu_parent: 'admin:'
+description_field_name: ''
+use_term_weight_order: true

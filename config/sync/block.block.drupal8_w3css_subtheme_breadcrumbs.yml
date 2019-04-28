@@ -1,6 +1,6 @@
 uuid: f9bb59ff-1946-4918-a8c6-27f9f3d6bbd8
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: yPe8aG4-T4XsmxadKilWNIHBBZQBkV6AqEiSoijGxT8
 id: drupal8_w3css_subtheme_breadcrumbs
 theme: drupal8_w3css_subtheme
-region: breadcrumb
-weight: -100
+region: content
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:

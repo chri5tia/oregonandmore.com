@@ -1,9 +1,0 @@
-uuid: bc23f716-ae6e-4421-8c95-15124db34088
-langcode: en
-status: true
-dependencies: {  }
-name: 'Product Tags'
-vid: product_tags
-description: 'Product tags that aren''t categories, such as "new item" or "Oregon".'
-hierarchy: 0
-weight: 0

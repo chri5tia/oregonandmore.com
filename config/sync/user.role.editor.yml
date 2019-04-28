@@ -7,7 +7,6 @@ label: Editor
 weight: -7
 is_admin: null
 permissions:
-  - 'access backup files'
   - 'access content overview'
   - 'access in-place editing'
   - 'access taxonomy overview'

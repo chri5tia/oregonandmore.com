@@ -1,0 +1,22 @@
+uuid: cfbce935-d995-4c08-8f39-d67504ca7a11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.carousel_item
+  module:
+    - text
+id: node.carousel_item.body
+field_name: body
+entity_type: node
+bundle: carousel_item
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,16 @@
+uuid: 3c30f137-f278-43cd-b10a-859ee03c480b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+    - taxonomy.vocabulary.categories
+id: product_categories
+label: 'Product categories'
+vocabulary: categories
+menu: catalog
+expanded: true
+depth: 1
+menu_parent: 'admin:'
+description_field_name: ''
+use_term_weight_order: true

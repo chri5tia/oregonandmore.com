@@ -1,0 +1,24 @@
+uuid: 56aa9846-cfb1-41ef-a570-fd2f94b76760
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: mainnavigation
+theme: drupal8_w3css_subtheme
+region: primary_menu_vertical
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

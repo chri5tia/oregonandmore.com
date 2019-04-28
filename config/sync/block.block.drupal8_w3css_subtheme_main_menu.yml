@@ -12,8 +12,8 @@ _core:
   default_config_hash: d1YBWkT-Xltc40K8rF69EzKs_E2j6SSKsq3cXwfZCzQ
 id: drupal8_w3css_subtheme_main_menu
 theme: drupal8_w3css_subtheme
-region: primary_menu
-weight: 10
+region: header
+weight: -7
 provider: null
 plugin: 'system_menu_block:main'
 settings:

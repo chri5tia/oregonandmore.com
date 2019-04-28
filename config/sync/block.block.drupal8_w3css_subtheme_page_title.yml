@@ -1,6 +1,6 @@
 uuid: bc069b5a-1968-4524-9f48-ec890a7183e5
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - drupal8_w3css_subtheme
@@ -8,8 +8,8 @@ _core:
   default_config_hash: Uo7mONWwEPmaIaUHkp0yL_8OIiMBVxU4mxNzTss18zA
 id: drupal8_w3css_subtheme_page_title
 theme: drupal8_w3css_subtheme
-region: page_title
-weight: 0
+region: breadcrumb
+weight: -8
 provider: null
 plugin: page_title_block
 settings:

@@ -1,0 +1,10 @@
+uuid: b47ca450-80f4-4f25-b3ed-cffb726ce73c
+langcode: en
+status: true
+dependencies: {  }
+id: jerky
+label: Jerky
+orderItemType: default
+generateTitle: null
+traits: {  }
+locked: false

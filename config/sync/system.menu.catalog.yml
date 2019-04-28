@@ -1,0 +1,8 @@
+uuid: 6a45aa9f-d458-4506-9b2f-f38d9c24cf62
+langcode: en
+status: true
+dependencies: {  }
+id: catalog
+label: Catalog
+description: 'Product catalog links'
+locked: false

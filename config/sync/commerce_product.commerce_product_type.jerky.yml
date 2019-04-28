@@ -1,0 +1,12 @@
+uuid: 5bd0e734-7682-4434-97cd-4708438e23a4
+langcode: en
+status: true
+dependencies: {  }
+id: jerky
+label: Jerky
+description: ''
+variationType: jerky
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

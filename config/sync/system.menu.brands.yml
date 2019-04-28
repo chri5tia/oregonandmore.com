@@ -1,0 +1,8 @@
+uuid: befe52b0-1f64-4611-a9e2-56619e541584
+langcode: en
+status: true
+dependencies: {  }
+id: brands
+label: Brands
+description: 'Product brands menu'
+locked: false

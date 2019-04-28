@@ -14,10 +14,10 @@ main_region: 1
 bottom_region: 0
 footer_region: 0
 equal_width: 0
-current_theme: ''
+current_theme: w3-theme-dark-grey
 color_page_wrapper: ''
-color_header: ''
-color_primary_menu: ''
+color_header: w3-dark-grey
+color_primary_menu: w3-dark-grey
 color_welcome_text: ''
 color_highlighted: ''
 color_top_container: ''
@@ -51,5 +51,5 @@ instagram_url: ''
 youtube_url: ''
 drupal_url: ''
 rss_url: ''
-copyright_text: ''
+copyright_text: '©2019 Oregon and More. Developed by Christia Hall. '
 show_credit_link: 0

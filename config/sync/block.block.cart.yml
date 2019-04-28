@@ -1,0 +1,21 @@
+uuid: ca4b4980-1b9b-4916-a66e-8aede4d30fa8
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - drupal8_w3css_subtheme
+id: cart
+theme: drupal8_w3css_subtheme
+region: header
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility: {  }

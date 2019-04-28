@@ -1,0 +1,7 @@
+uuid: f6ba7ca1-6f71-4fd6-a538-a4223fd64a97
+langcode: en
+status: true
+dependencies: {  }
+id: net_wt_
+label: 'Net wt.'
+elementType: select

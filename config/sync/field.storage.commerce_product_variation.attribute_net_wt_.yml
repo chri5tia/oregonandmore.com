@@ -1,0 +1,19 @@
+uuid: ba46bd63-6480-4b14-b608-a705977b3a2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.attribute_net_wt_
+field_name: attribute_net_wt_
+entity_type: commerce_product_variation
+type: entity_reference
+settings:
+  target_type: commerce_product_attribute_value
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

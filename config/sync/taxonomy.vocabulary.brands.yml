@@ -1,0 +1,9 @@
+uuid: e11c804a-7d0d-4503-bf03-ff03c9da4d76
+langcode: en
+status: true
+dependencies: {  }
+name: Brands
+vid: brands
+description: 'Product Brands'
+hierarchy: 0
+weight: 0
