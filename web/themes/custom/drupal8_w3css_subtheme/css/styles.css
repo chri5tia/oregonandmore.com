@@ -1,0 +1,240 @@
+/* Add your css code here */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+html, body {
+    min-height: 100%;
+    overflow-wrap: break-word;
+}
+
+p {
+  line-height: 2.2;
+  opacity:.95;
+  /* font-size:16px; */
+}
+
+h1 {
+  padding:0px;
+  line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:lighter;
+}
+
+/**************
+* Font Family *
+***************/
+
+/* Lato Font */
+h1, h2, h3, h4, h5, h6,
+ul.ul-parent.ul-parent-catalog.ul-0,
+.copyright-inner, .copyright {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Montserrat font */
+html, body, p,
+ul.ul-parent.ul-parent-main.ul-0,
+ul.ul-parent.ul-parent-account.ul-0,
+ul.w3-ul.w3-small.breadcrumb.ul-0 {
+  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.w3-padding {
+    padding: 8px 16px 8px 0px!important;
+}
+
+.w3-padding-24 {
+  padding: 5px!important;
+  margin-bottom:0px;
+}
+
+.inline {
+  display: inline;
+  float:left;
+  margin-left:15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Form asterisk */
+.form-required:after {
+    content: "\f069"!important;
+    font-family: FontAwesome;
+    color: #b21111;
+    vertical-align: 0;
+    display: inline-block!important;
+    background-size: 10px 10px;
+    width: 5px;
+    height: 5px;
+    margin: 0 0.3em;
+}
+
+/* Mobile Font Settings */
+@media only screen and (max-width: 600px) {
+  .w3-section.field.field--name-body.field--type-text-with-summary.field--label-hidden.w3-bar-item.field__item p {
+    font-size:24px;
+  }
+
+  .site-name, .site-slogan {
+    margin:10px!important;
+  }
+}
+
+/*****************
+* MENU AND HEADER  *
+*****************/
+
+#header {
+  background-color: #bebebe !important;
+}
+
+/* Menu */
+.main-navigation-wrapper {
+  background-color: #313131;
+}
+
+nav#block-drupal8-w3css-subtheme-main-menu {
+  width:auto;
+  float:left;
+}
+
+ul.ul-parent.ul-parent-account.ul-0 {
+  margin: 0 50px 0 50px;
+}
+
+/* Catalog Menu */
+ul.ul-parent.ul-parent-catalog.ul-0 {
+  text-transform: uppercase;
+  float:left;
+  font-weight:300;
+  margin-left:15px;
+  font-weight:lighter;
+}
+
+/* banner area*/
+.bannertext {
+  font-size:32px;
+  float:right;
+  text-align:right;
+  vertical-align:top;
+  padding-right:25px;
+}
+.site-slogan {
+  padding-left: 0px;
+}
+
+/* Mobile Menu */
+#open-nav-inner {
+  display:none;
+}
+
+/* Cart button */
+.cart-block--summary, .cart-block--summary__icon img, .cart-block--summary__count {
+  vertical-align: bottom;
+  width:auto;
+  text-align:left;
+}
+
+section#block-cart {
+  width: auto;
+  float: right;
+}
+
+/* Mobile Menu and Header Settings */
+@media only screen and (max-width: 600px) {
+
+  #open-nav-inner {
+    display:none;
+  }
+
+  nav#block-drupal8-w3css-subtheme-main-menu, nav#block-drupal8-w3css-subtheme-account-menu {
+    display:none;
+  }
+
+  section#block-cart {
+    width: auto;
+    float: right;
+    margin-right:10px;
+  }
+
+  .cart--cart-block {
+    margin-top:12px;
+  }
+}
+
+/*******
+* Tabs *
+*******/
+
+ul.primary {
+    border-bottom: 0px;
+    font-size: 14px;
+    opacity: .8;
+}
+
+ul.primary > li {
+    border-right: 1px solid #bebebe!important;
+    float: left;
+}
+
+/***********************************
+* Middle Sections and Main Section *
+***********************************/
+
+#main-container {
+  min-height: -webkit-fill-available;
+}
+
+/* Title section/image banner */
+div#page-title-inner {
+
+}
+
+.w3-section.js-form-item.form-item.js-form-type-item.form-type-item.js-form-item-.form-item-.form-no-label {
+  margin: 0px 15px;
+}
+
+ul.breadcrumb {
+  padding: 5px 35px;
+  list-style: none;
+}
+
+nav.w3-block.w3-section.breadcrumb {
+    margin: 5px 0px !important;
+}
+
+/* Help and Messages */
+
+.messages {
+    padding: 15px 35px;
+}
+
+.messages--status {
+    color: #325e1c;
+    background-color: #f3faef;
+    border-color: #c9e1bd #c9e1bd #c9e1bd transparent;
+    box-shadow: -8px 0 0 #77b259;
+    margin-top:10px;
+}
+
+/********
+* Forms *
+********/
+.w3-input {
+    padding: 10px;
+    font-size: 18px;
+    color: #333333;
+  }
+
+/*****************
+* Footer Section *
+*****************/
+
+.copyright-inner, .copyright {
+  font-size: 13px;
+  font-weight: 100;
+  text-align:center;
+  width:auto;
+}
