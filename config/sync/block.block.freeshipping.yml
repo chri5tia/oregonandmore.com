@@ -1,0 +1,25 @@
+uuid: 3e5e933a-0b4e-4180-b745-e5dd0919a80e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:db69ea11-85d6-46d4-b058-5f2da3efc6eb'
+  module:
+    - block_content
+  theme:
+    - drupal8_w3css_subtheme
+id: freeshipping
+theme: drupal8_w3css_subtheme
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:db69ea11-85d6-46d4-b058-5f2da3efc6eb'
+settings:
+  id: 'block_content:db69ea11-85d6-46d4-b058-5f2da3efc6eb'
+  label: 'Free shipping!'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,4 +1,4 @@
-uuid: 53164fe2-1ea2-4a5e-95ea-ca9df241a441
+uuid: 49b25044-e335-4cca-ab0a-6ffaf532c127
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 id: brands
 theme: drupal8_w3css_subtheme
 region: sidebar_second
-weight: 0
+weight: -8
 provider: null
 plugin: 'system_menu_block:brands'
 settings:
@@ -21,9 +21,4 @@ settings:
   label_display: visible
   level: 1
   depth: 0
-visibility:
-  request_path:
-    id: request_path
-    pages: "/products\r\n/products/*"
-    negate: false
-    context_mapping: {  }
+visibility: {  }

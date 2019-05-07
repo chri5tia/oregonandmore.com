@@ -8,9 +8,9 @@ dependencies:
 id: catalog_items
 label: 'Catalog items'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'catalog/[term:vocabulary:name]/[term:name]'
+pattern: 'catalog/[term:name]'
 selection_criteria:
-  8578ea7f-64c6-4648-80ea-a8ada0d63de3:
+  d08d4953-aa05-44b3-af02-90c51f6a8279:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       brands: brands
@@ -18,7 +18,7 @@ selection_criteria:
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: 8578ea7f-64c6-4648-80ea-a8ada0d63de3
+    uuid: d08d4953-aa05-44b3-af02-90c51f6a8279
 selection_logic: and
 weight: -5
 relationships: {  }

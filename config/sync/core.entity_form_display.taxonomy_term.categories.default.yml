@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.taxonomy_term.categories.field_category_body
+    - field.field.taxonomy_term.categories.field_header
+    - image.style.thumbnail
     - taxonomy.vocabulary.categories
   module:
+    - image
     - path
     - text
 id: taxonomy_term.categories.default
@@ -21,6 +24,14 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_header:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   name:
     type: string_textfield
     weight: 0
@@ -31,7 +42,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }

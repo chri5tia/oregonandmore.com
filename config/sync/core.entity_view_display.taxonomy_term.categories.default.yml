@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.taxonomy_term.categories.field_category_body
+    - field.field.taxonomy_term.categories.field_header
+    - image.style.header_image
     - taxonomy.vocabulary.categories
   module:
+    - image
     - text
 id: taxonomy_term.categories.default
 targetEntityType: taxonomy_term
@@ -13,11 +16,20 @@ bundle: categories
 mode: default
 content:
   field_category_body:
-    weight: 0
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_header:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: header_image
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
 hidden:
   description: true

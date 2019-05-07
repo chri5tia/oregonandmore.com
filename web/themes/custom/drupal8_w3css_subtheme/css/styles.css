@@ -20,12 +20,41 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:lighter;
 }
 
+p.lead {
+  font-weight: 100;
+  text-align: center;
+  font-size: 32px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.w3-section.field.field--name-field-categories.field--type-entity-reference.field--label-hidden.field__items,
+.w3-section.field.field--name-field-brand.field--type-entity-reference.field--label-hidden.w3-bar-item.field__item {
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    float: left;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.w3-section.field.field--name-field-categories.field--type-entity-reference.field--label-hidden.field__items:hover,
+.w3-section.field.field--name-field-brand.field--type-entity-reference.field--label-hidden.w3-bar-item.field__item:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
 /**************
 * Font Family *
 ***************/
 
 /* Lato Font */
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6, p.lead,
 ul.ul-parent.ul-parent-catalog.ul-0,
 .copyright-inner, .copyright {
   font-family: 'Lato', sans-serif;
