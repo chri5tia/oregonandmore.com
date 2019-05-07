@@ -11,6 +11,10 @@ p {
   /* font-size:16px; */
 }
 
+table.w3-table-all.cols-5 a, table.w3-table-all.cols-5 a:hover {
+  color: #6B8E23;
+}
+
 h1 {
   padding:0px;
   line-height: 1;
@@ -27,7 +31,7 @@ p.lead {
   padding: 0px;
   margin: 0px;
   line-height: 1.1;
-  margin: 5px;
+  /* color: #6B8E23; */
 }
 
 .w3-section.field.field--name-field-categories.field--type-entity-reference.field--label-hidden.field__items,
@@ -51,11 +55,15 @@ p.lead {
   color: #FFFFFF;
 }
 
-.view-content .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item {
+/* Product Names */
+.w3-panel.views-row.clearfix.row-1 .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item,
+.w3-panel.views-row.clearfix.row-2 .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item,
+.w3-panel.views-row.clearfix.row-3 .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item {
     font-size: 24px;
     line-height: 1;
     text-transform: capitalize;
-    color: #336600;
+    color: #6B8E23;
+    font-weight: 100;
 }
 
 /**************
@@ -228,6 +236,10 @@ ul.breadcrumb {
 
 nav.w3-block.w3-section.breadcrumb {
     margin: 5px 0px !important;
+}
+
+img.w3-image.image-style-header-image {
+  margin-bottom: 25px;
 }
 
 /* Help and Messages */
