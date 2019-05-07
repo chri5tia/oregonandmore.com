@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.jerky
-    - field.field.commerce_product_variation.jerky.attribute_flavor
     - field.field.commerce_product_variation.jerky.attribute_net_wt_
     - field.field.commerce_product_variation.jerky.weight
   module:
@@ -15,12 +14,6 @@ targetEntityType: commerce_product_variation
 bundle: jerky
 mode: default
 content:
-  attribute_flavor:
-    type: options_select
-    weight: 2
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   attribute_net_wt_:
     type: options_select
     weight: 1

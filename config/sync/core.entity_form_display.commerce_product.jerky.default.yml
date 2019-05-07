@@ -38,13 +38,17 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_brand:
-    weight: 3
-    settings: {  }
+    weight: 4
+    settings:
+      autocomplete_threshold: 7
+      autocomplete_size: 60
+      autocomplete_placeholder: 'Start typing a brand or add it!'
+      hide_single_entity: true
     third_party_settings: {  }
-    type: options_select
+    type: commerce_entity_select
     region: content
   field_categories:
-    weight: 5
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -99,7 +103,7 @@ content:
     third_party_settings: {  }
   variations:
     type: inline_entity_form_complex
-    weight: 4
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS

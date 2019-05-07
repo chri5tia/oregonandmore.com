@@ -12,7 +12,7 @@ entity_type: commerce_product
 bundle: jerky
 label: Brand
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

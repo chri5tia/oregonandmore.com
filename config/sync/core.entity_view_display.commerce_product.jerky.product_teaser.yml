@@ -11,7 +11,7 @@ dependencies:
     - field.field.commerce_product.jerky.field_image
     - field.field.commerce_product.jerky.stores
     - field.field.commerce_product.jerky.variations
-    - image.style.medium
+    - image.style.medium_square
   module:
     - commerce_product
     - image
@@ -24,7 +24,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: medium
+      image_style: medium_square
       image_link: content
     third_party_settings: {  }
     type: image

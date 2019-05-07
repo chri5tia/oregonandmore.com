@@ -5,7 +5,6 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.jerky
     - core.entity_view_mode.commerce_product_variation.summary
-    - field.field.commerce_product_variation.jerky.attribute_flavor
     - field.field.commerce_product_variation.jerky.attribute_net_wt_
     - field.field.commerce_product_variation.jerky.weight
   module:
@@ -25,7 +24,6 @@ content:
       currency_display: symbol
     third_party_settings: {  }
 hidden:
-  attribute_flavor: true
   attribute_net_wt_: true
   list_price: true
   product_id: true

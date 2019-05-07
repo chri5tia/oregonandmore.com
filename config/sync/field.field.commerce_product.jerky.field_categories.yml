@@ -6,15 +6,19 @@ dependencies:
     - commerce_product.commerce_product_type.jerky
     - field.storage.commerce_product.field_categories
     - taxonomy.vocabulary.categories
+  content:
+    - 'taxonomy_term:categories:4a4d8773-7cf0-437b-9be6-c7d3d5bb48dd'
 id: commerce_product.jerky.field_categories
 field_name: field_categories
 entity_type: commerce_product
 bundle: jerky
 label: Categories
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    target_uuid: 4a4d8773-7cf0-437b-9be6-c7d3d5bb48dd
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'

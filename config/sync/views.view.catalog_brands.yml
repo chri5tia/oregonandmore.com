@@ -2,6 +2,9 @@ uuid: 2371a0ff-a2af-4037-ac4c-b8bee0f08dd6
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.commerce_product.product_teaser
+    - views.view.taxonomy_term_description
   module:
     - commerce_product
     - taxonomy
@@ -64,8 +67,20 @@ display:
             next: ››
       style:
         type: grid
+        options:
+          uses_fields: false
+          columns: 3
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: ''
+          row_class_default: true
+          row_class_custom: ''
       row:
         type: 'entity:commerce_product'
+        options:
+          relationship: none
+          view_mode: product_teaser
       fields:
         title:
           table: commerce_product_field_data
@@ -145,7 +160,18 @@ display:
           group: 1
       sorts: {  }
       title: ''
-      header: {  }
+      header:
+        view:
+          id: view
+          table: views
+          field: view
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          view_to_insert: 'taxonomy_term_description:block_2'
+          inherit_arguments: true
+          plugin_id: view
       footer: {  }
       empty: {  }
       relationships:

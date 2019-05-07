@@ -1,7 +1,15 @@
 uuid: b47ca450-80f4-4f25-b3ed-cffb726ce73c
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - commerce_autosku
+third_party_settings:
+  commerce_autosku:
+    mode: enabled
+    plugin: token
+    configuration:
+      pattern: ''
 id: jerky
 label: Jerky
 orderItemType: default

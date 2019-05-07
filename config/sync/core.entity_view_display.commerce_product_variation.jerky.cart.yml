@@ -1,34 +1,29 @@
 uuid: 21a11125-3eee-4991-9822-1a6c63cca7d0
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.jerky
     - core.entity_view_mode.commerce_product_variation.cart
-    - field.field.commerce_product_variation.jerky.attribute_flavor
     - field.field.commerce_product_variation.jerky.attribute_net_wt_
     - field.field.commerce_product_variation.jerky.weight
-  module:
-    - commerce_price
 id: commerce_product_variation.jerky.cart
 targetEntityType: commerce_product_variation
 bundle: jerky
 mode: cart
 content:
-  price:
-    label: hidden
-    type: commerce_price_default
+  title:
+    type: string
     weight: 0
     region: content
+    label: hidden
     settings:
-      strip_trailing_zeroes: false
-      currency_display: symbol
+      link_to_entity: false
     third_party_settings: {  }
 hidden:
-  attribute_flavor: true
   attribute_net_wt_: true
   list_price: true
+  price: true
   product_id: true
   sku: true
-  title: true
   weight: true
