@@ -18,7 +18,7 @@ content:
     region: content
     label: hidden
     settings:
-      link_to_entity: false
+      link_to_entity: true
     third_party_settings: {  }
 hidden:
   attribute_net_wt_: true
