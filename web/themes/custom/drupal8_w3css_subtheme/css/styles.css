@@ -26,6 +26,8 @@ p.lead {
   font-size: 32px;
   padding: 0px;
   margin: 0px;
+  line-height: 1.1;
+  margin: 5px;
 }
 
 .w3-section.field.field--name-field-categories.field--type-entity-reference.field--label-hidden.field__items,
@@ -47,6 +49,13 @@ p.lead {
 .w3-section.field.field--name-field-brand.field--type-entity-reference.field--label-hidden.w3-bar-item.field__item:hover {
   background-color: #000000;
   color: #FFFFFF;
+}
+
+.view-content .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item {
+    font-size: 24px;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #336600;
 }
 
 /**************
@@ -85,19 +94,6 @@ ul.w3-ul.w3-small.breadcrumb.ul-0 {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-/* Form asterisk */
-.form-required:after {
-    content: "\f069"!important;
-    font-family: FontAwesome;
-    color: #b21111;
-    vertical-align: 0;
-    display: inline-block!important;
-    background-size: 10px 10px;
-    width: 5px;
-    height: 5px;
-    margin: 0 0.3em;
 }
 
 /* Mobile Font Settings */
@@ -170,12 +166,6 @@ section#block-cart {
   width: auto;
   float: right;
 }
-
-/*
-.w3-btn, .w3-button {
-
-}
-*/
 
 /* Mobile Menu and Header Settings */
 @media only screen and (max-width: 600px) {
@@ -262,6 +252,27 @@ nav.w3-block.w3-section.breadcrumb {
     font-size: 18px;
     color: #333333;
   }
+
+.w3-select {
+  width: fit-content;
+}
+
+label.js-form-required.form-required {
+  margin-right: 5px;
+}
+
+/* Form asterisk */
+.form-required:after {
+    content: "\f069"!important;
+    font-family: FontAwesome;
+    color: #b21111;
+    vertical-align: 0;
+    display: inline-block!important;
+    background-size: 10px 10px;
+    width: 5px;
+    height: 5px;
+    margin: 0 0.3em;
+}
 
 /*****************
 * Footer Section *
