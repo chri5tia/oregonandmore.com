@@ -10,8 +10,8 @@ _core:
   default_config_hash: IZ4yckD5ZErvQdUEXCKgME5sVt_4E5O-gHYiletWntE
 id: drupal8_w3css_subtheme_messages
 theme: drupal8_w3css_subtheme
-region: highlighted
-weight: -50
+region: breadcrumb
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:

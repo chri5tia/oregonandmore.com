@@ -9,7 +9,7 @@ dependencies:
 id: cart
 theme: drupal8_w3css_subtheme
 region: header
-weight: -5
+weight: -3
 provider: null
 plugin: commerce_cart
 settings:

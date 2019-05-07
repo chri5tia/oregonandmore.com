@@ -1,0 +1,34 @@
+uuid: 30351055-f5bf-4f25-9d88-0cbd01f6ab3e
+langcode: en
+status: false
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.jerky
+    - core.entity_view_mode.commerce_product_variation.summary
+    - field.field.commerce_product_variation.jerky.attribute_flavor
+    - field.field.commerce_product_variation.jerky.attribute_net_wt_
+    - field.field.commerce_product_variation.jerky.weight
+  module:
+    - commerce_price
+id: commerce_product_variation.jerky.summary
+targetEntityType: commerce_product_variation
+bundle: jerky
+mode: summary
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  attribute_flavor: true
+  attribute_net_wt_: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true
+  weight: true

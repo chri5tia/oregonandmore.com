@@ -10,8 +10,8 @@ dependencies:
     - drupal8_w3css_subtheme
 id: phonenumber
 theme: drupal8_w3css_subtheme
-region: primary_menu
-weight: -8
+region: header
+weight: -6
 provider: null
 plugin: 'block_content:b31f48e3-b643-46d9-ab3c-cd2eb7e1088f'
 settings:

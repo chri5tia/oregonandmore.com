@@ -1,0 +1,25 @@
+uuid: 2aefeffd-30f0-4d60-bf50-280de536c387
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5da1af2c-98df-4ddc-a124-8319664a099c'
+  module:
+    - block_content
+  theme:
+    - drupal8_w3css_subtheme
+id: copyright
+theme: drupal8_w3css_subtheme
+region: footer_menu
+weight: -8
+provider: null
+plugin: 'block_content:5da1af2c-98df-4ddc-a124-8319664a099c'
+settings:
+  id: 'block_content:5da1af2c-98df-4ddc-a124-8319664a099c'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -2,11 +2,14 @@ uuid: a9c96538-5a2e-4913-80d9-ac2081b4cc89
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.commerce_product.product_teaser
+    - views.view.taxonomy_term_description
   module:
     - commerce_product
     - taxonomy
 id: catalog
-label: Catalog
+label: 'Catalog Categories'
 module: views
 description: ''
 tag: ''
@@ -41,7 +44,7 @@ display:
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
-          expose_sort_order: true
+          expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
@@ -64,8 +67,20 @@ display:
             next: ››
       style:
         type: grid
+        options:
+          uses_fields: false
+          columns: 3
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: true
+          col_class_custom: ''
+          row_class_default: true
+          row_class_custom: ''
       row:
         type: 'entity:commerce_product'
+        options:
+          relationship: none
+          view_mode: product_teaser
       fields:
         title:
           table: commerce_product_field_data
@@ -144,8 +159,19 @@ display:
             operator: ''
           group: 1
       sorts: {  }
-      title: Catalog
-      header: {  }
+      title: ''
+      header:
+        view:
+          id: view
+          table: views
+          field: view
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          view_to_insert: 'taxonomy_term_description:block_1'
+          inherit_arguments: true
+          plugin_id: view
       footer: {  }
       empty: {  }
       relationships:
@@ -213,6 +239,7 @@ display:
     display_options:
       display_extenders: {  }
       path: taxonomy/term/%
+      exposed_block: true
     cache_metadata:
       max-age: -1
       contexts:

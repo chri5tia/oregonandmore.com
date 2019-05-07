@@ -5,6 +5,7 @@ dependencies: {  }
 id: jerky
 label: Jerky
 orderItemType: default
-generateTitle: null
-traits: {  }
+generateTitle: true
+traits:
+  - purchasable_entity_shippable
 locked: false

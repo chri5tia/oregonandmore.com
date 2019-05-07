@@ -9,7 +9,7 @@ _core:
 id: drupal8_w3css_subtheme_page_title
 theme: drupal8_w3css_subtheme
 region: breadcrumb
-weight: -8
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

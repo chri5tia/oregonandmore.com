@@ -10,8 +10,8 @@ _core:
   default_config_hash: o18PjysFmKtSO5Wi2d0V9Kw-EqwdE69bLenXZEwvK5E
 id: drupal8_w3css_subtheme_help
 theme: drupal8_w3css_subtheme
-region: highlighted
-weight: -30
+region: breadcrumb
+weight: -7
 provider: null
 plugin: help_block
 settings:

@@ -142,6 +142,12 @@ section#block-cart {
   float: right;
 }
 
+/*
+.w3-btn, .w3-button {
+
+}
+*/
+
 /* Mobile Menu and Header Settings */
 @media only screen and (max-width: 600px) {
 

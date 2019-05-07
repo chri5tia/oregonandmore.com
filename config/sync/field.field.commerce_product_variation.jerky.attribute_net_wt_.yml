@@ -1,15 +1,15 @@
-uuid: b66630d9-1961-485d-8618-4a21de6ca142
+uuid: 3bb731c1-1843-49a0-bd6c-83a22411e594
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_attribute.net_wt_
-    - commerce_product.commerce_product_variation_type.default
+    - commerce_product.commerce_product_variation_type.jerky
     - field.storage.commerce_product_variation.attribute_net_wt_
-id: commerce_product_variation.default.attribute_net_wt_
+id: commerce_product_variation.jerky.attribute_net_wt_
 field_name: attribute_net_wt_
 entity_type: commerce_product_variation
-bundle: default
+bundle: jerky
 label: 'Net wt.'
 description: ''
 required: true

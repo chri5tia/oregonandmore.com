@@ -4,8 +4,6 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
-    - field.field.commerce_product_variation.default.attribute_flavor
-    - field.field.commerce_product_variation.default.attribute_net_wt_
     - field.field.commerce_product_variation.default.weight
   module:
     - commerce_price
@@ -17,18 +15,6 @@ targetEntityType: commerce_product_variation
 bundle: default
 mode: default
 content:
-  attribute_flavor:
-    type: options_select
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  attribute_net_wt_:
-    type: options_select
-    weight: 2
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   list_price:
     type: commerce_list_price
     weight: -1

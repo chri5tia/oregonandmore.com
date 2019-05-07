@@ -1,6 +1,6 @@
 uuid: 2cf763f0-0227-49ec-ad58-03d2cbb6f4fa
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - drupal8_w3css_theme
