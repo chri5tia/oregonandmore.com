@@ -3,5 +3,5 @@ langcode: en
 status: true
 dependencies: {  }
 id: net_wt_
-label: 'Net wt.'
+label: Size
 elementType: select

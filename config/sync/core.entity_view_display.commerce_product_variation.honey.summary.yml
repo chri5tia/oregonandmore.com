@@ -1,0 +1,53 @@
+uuid: 221881e6-5004-474c-80d9-b5bd9be65e17
+langcode: en
+status: false
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.honey
+    - core.entity_view_mode.commerce_product_variation.summary
+    - field.field.commerce_product_variation.honey.attribute_flavor
+    - field.field.commerce_product_variation.honey.attribute_net_wt_
+    - field.field.commerce_product_variation.honey.weight
+  enforced:
+    module:
+      - commerce_checkout
+  module:
+    - commerce_price
+_core:
+  default_config_hash: FZNRP3e--QCbG69eQ4ekdrlzlfpBHRYCuAkM5QStgSQ
+id: commerce_product_variation.honey.summary
+targetEntityType: commerce_product_variation
+bundle: honey
+mode: summary
+content:
+  list_price:
+    label: above
+    type: commerce_price_default
+    weight: -1
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+  product_id:
+    type: entity_reference_label
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  attribute_flavor: true
+  attribute_net_wt_: true
+  price: true
+  sku: true
+  weight: true

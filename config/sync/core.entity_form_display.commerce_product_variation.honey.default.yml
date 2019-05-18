@@ -1,43 +1,52 @@
-uuid: f0fac8f9-c54b-456a-aa76-517c6cab00ce
+uuid: d049df43-fe2d-49f5-bcf1-a9538ec616f4
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_variation_type.jerky
-    - field.field.commerce_product_variation.jerky.attribute_net_wt_
-    - field.field.commerce_product_variation.jerky.weight
+    - commerce_product.commerce_product_variation_type.honey
+    - field.field.commerce_product_variation.honey.attribute_flavor
+    - field.field.commerce_product_variation.honey.attribute_net_wt_
+    - field.field.commerce_product_variation.honey.weight
   module:
     - commerce_price
     - physical
-id: commerce_product_variation.jerky.default
+_core:
+  default_config_hash: tPYXAFcoBHG1jtgfl021t-ns7EE7da_S-o2zfS7aLUQ
+id: commerce_product_variation.honey.default
 targetEntityType: commerce_product_variation
-bundle: jerky
+bundle: honey
 mode: default
 content:
-  attribute_net_wt_:
+  attribute_flavor:
     type: options_select
     weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  attribute_net_wt_:
+    type: options_select
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
   price:
     type: commerce_price_default
     weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    region: content
   status:
     type: boolean_checkbox
+    weight: 4
     settings:
       display_label: true
-    weight: 3
-    region: content
     third_party_settings: {  }
+    region: content
   weight:
     type: physical_measurement_default
-    weight: 2
+    weight: 3
     settings:
-      default_unit: oz
+      default_unit: ''
       allow_unit_change: true
     third_party_settings: {  }
     region: content

@@ -11,7 +11,7 @@ _core:
 id: drupal8_w3css_subtheme_content
 theme: drupal8_w3css_subtheme
 region: content
-weight: -6
+weight: -5
 provider: null
 plugin: system_main_block
 settings:

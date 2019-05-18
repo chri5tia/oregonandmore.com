@@ -11,7 +11,7 @@ dependencies:
 id: catalog
 label: 'Catalog Categories'
 module: views
-description: ''
+description: 'Products listed by category'
 tag: ''
 base_table: commerce_product_field_data
 base_field: product_id
@@ -50,10 +50,13 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 10
+          items_per_page: 9
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -62,9 +65,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       style:
         type: grid
         options:

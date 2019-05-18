@@ -10,6 +10,7 @@ dependencies:
     - field.field.commerce_product.jerky.field_image
     - field.field.commerce_product.jerky.stores
     - field.field.commerce_product.jerky.variations
+    - image.style.large
   module:
     - commerce_product
     - image
@@ -46,7 +47,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -57,7 +58,7 @@ content:
     weight: 0
     region: content
     settings:
-      link_to_entity: true
+      link_to_entity: false
     third_party_settings: {  }
   variations:
     type: commerce_add_to_cart

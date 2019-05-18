@@ -1,0 +1,14 @@
+uuid: 98703826-e615-4cfb-bf00-bfe1756bd812
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5TqAuVTl1_arKIBeD1qDfJM-pKmaFnqyYSQNdwEK_DQ
+id: honey
+label: Honey
+description: ''
+variationType: honey
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

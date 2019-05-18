@@ -9,7 +9,7 @@ third_party_settings:
     mode: enabled
     plugin: token
     configuration:
-      pattern: ''
+      pattern: '[commerce_product_variation:product_id] [commerce_product_variation:attribute_flavor] [commerce_product_variation:attribute_net_wt_]'
 id: jerky
 label: Jerky
 orderItemType: default

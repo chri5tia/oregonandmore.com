@@ -11,5 +11,29 @@ definitions:
     parent: ''
     expanded: false
     weight: 0
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__product_categories__46':
+    weight: -50
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.product_categories.2'
+    menu_name: catalog
+    enabled: true
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__product_categories__44':
+    weight: -49
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.product_categories.2'
+    menu_name: catalog
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__product_categories__45':
+    weight: -48
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.product_categories.2'
+    menu_name: catalog
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__product_categories__2':
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.product_categories.20'
+    weight: 1
+    expanded: false
+    enabled: true
+    menu_name: catalog
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

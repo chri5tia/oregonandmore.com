@@ -1,0 +1,33 @@
+uuid: 6c2fad02-2312-4485-ad17-7b38549bf4b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.honey
+    - field.field.commerce_product_variation.honey.attribute_flavor
+    - field.field.commerce_product_variation.honey.attribute_net_wt_
+    - field.field.commerce_product_variation.honey.weight
+  module:
+    - commerce_price
+id: commerce_product_variation.honey.default
+targetEntityType: commerce_product_variation
+bundle: honey
+mode: default
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  attribute_flavor: true
+  attribute_net_wt_: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true
+  weight: true

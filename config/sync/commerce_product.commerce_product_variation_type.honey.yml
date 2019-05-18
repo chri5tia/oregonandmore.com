@@ -1,4 +1,4 @@
-uuid: 7cae316f-356d-416e-b935-1fd74edd976b
+uuid: 6361a88c-9244-4d9e-8ccb-5dd8faf61afb
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ third_party_settings:
     mode: enabled
     plugin: token
     configuration:
-      pattern: ''
+      pattern: '[commerce_product_variation:product_id] [commerce_product_variation:attribute_flavor] [commerce_product_variation:attribute_net_wt_]'
 _core:
   default_config_hash: 3vA4FKQ1Qu8B1R8UdGPnmMfJrYO6Y6uMqeNgDgXxods
-id: default
-label: Default
+id: honey
+label: Honey
 orderItemType: default
 generateTitle: true
 traits:

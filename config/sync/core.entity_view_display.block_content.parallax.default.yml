@@ -1,0 +1,22 @@
+uuid: 4f023f2b-1686-4f6d-a98b-2cd149fb9d13
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.parallax
+    - field.field.block_content.parallax.body
+  module:
+    - text
+id: block_content.parallax.default
+targetEntityType: block_content
+bundle: parallax
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

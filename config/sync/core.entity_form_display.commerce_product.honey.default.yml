@@ -1,15 +1,15 @@
-uuid: 4a5ece25-baa9-4fc0-8f4f-54c0d8e6d05a
+uuid: e00d17e4-a59c-4abe-9ae9-291a082b639c
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.default
-    - field.field.commerce_product.default.body
-    - field.field.commerce_product.default.field_brand
-    - field.field.commerce_product.default.field_categories
-    - field.field.commerce_product.default.field_image
-    - field.field.commerce_product.default.stores
-    - field.field.commerce_product.default.variations
+    - commerce_product.commerce_product_type.honey
+    - field.field.commerce_product.honey.body
+    - field.field.commerce_product.honey.field_brand
+    - field.field.commerce_product.honey.field_categories
+    - field.field.commerce_product.honey.field_image
+    - field.field.commerce_product.honey.stores
+    - field.field.commerce_product.honey.variations
     - image.style.thumbnail
   module:
     - commerce
@@ -19,9 +19,9 @@ dependencies:
     - text
 _core:
   default_config_hash: D83rjMOLFN_QzOmcrOY8Ro8bAguEQmmTq7wIcj3gLI8
-id: commerce_product.default.default
+id: commerce_product.honey.default
 targetEntityType: commerce_product
-bundle: default
+bundle: honey
 mode: default
 content:
   body:
@@ -46,7 +46,7 @@ content:
     type: options_select
     region: content
   field_categories:
-    weight: 4
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
@@ -101,7 +101,7 @@ content:
     region: content
   variations:
     type: inline_entity_form_complex
-    weight: 3
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
