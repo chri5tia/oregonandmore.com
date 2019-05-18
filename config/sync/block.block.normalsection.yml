@@ -1,0 +1,31 @@
+uuid: e71f60f7-62b5-4b1e-b475-9d23e4c75a1b
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:cc6855a2-1093-487a-8773-6b48361ceb1e'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: normalsection
+theme: drupal8_w3css_subtheme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:cc6855a2-1093-487a-8773-6b48361ceb1e'
+settings:
+  id: 'block_content:cc6855a2-1093-487a-8773-6b48361ceb1e'
+  label: 'Normal Section'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 393abb50-67b3-4926-9706-67d1059e8c33
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:parallax:e0916bb2-df24-4f90-8cad-db7c85ac4e23'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+id: parallax01
+theme: drupal8_w3css_subtheme
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:e0916bb2-df24-4f90-8cad-db7c85ac4e23'
+settings:
+  id: 'block_content:e0916bb2-df24-4f90-8cad-db7c85ac4e23'
+  label: 'Parallax 01'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

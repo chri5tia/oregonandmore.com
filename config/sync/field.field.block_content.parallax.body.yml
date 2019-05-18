@@ -1,0 +1,22 @@
+uuid: dd55753d-6e7c-4ae5-ab85-95c2e5523f50
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.parallax
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.parallax.body
+field_name: body
+entity_type: block_content
+bundle: parallax
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
