@@ -1,0 +1,44 @@
+uuid: 635a18dc-f9d6-49be-97c9-d1329efb4505
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.brands.field_category_body
+    - field.field.taxonomy_term.brands.field_header
+    - field.field.taxonomy_term.brands.field_logo
+    - taxonomy.vocabulary.brands
+  module:
+    - image
+    - text
+id: taxonomy_term.brands.default
+targetEntityType: taxonomy_term
+bundle: brands
+mode: default
+content:
+  field_category_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_header:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: header_image
+      image_link: ''
+    third_party_settings: {  }
+  field_logo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  description: true

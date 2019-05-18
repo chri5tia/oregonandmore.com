@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 name: Brands
 vid: brands
-description: 'Product Brands'
+description: 'Product Brands and Descriptions'
 hierarchy: 0
 weight: 0
