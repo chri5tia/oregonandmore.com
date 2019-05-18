@@ -32,6 +32,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/d8w3css": "^1.15",
+        "drupal/easy_breadcrumb": "^1.12",
         "drupal/jcarousel": "^4.0",
         "drupal/pathauto": "^1.4",
         "drupal/recaptcha": "^2.4",
