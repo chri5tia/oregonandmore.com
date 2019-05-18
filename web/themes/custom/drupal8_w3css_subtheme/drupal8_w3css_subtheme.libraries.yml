@@ -6,3 +6,14 @@ global-components:
 
   js:
     js/script.js: {}
+
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/ScrollMagic.min.js: {}
+    js/animation.gsap.min.js: {}
+    js/TweenMax.min.js: {}
+    js/main.js: {}
+  dependencies:
