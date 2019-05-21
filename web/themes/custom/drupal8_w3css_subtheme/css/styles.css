@@ -67,7 +67,7 @@ p.lead {
 .w3-panel.views-row.clearfix.row-1 .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item,
 .w3-panel.views-row.clearfix.row-2 .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item,
 .w3-panel.views-row.clearfix.row-3 .w3-section.field.field--name-title.field--type-string.field--label-hidden.w3-bar-item.field__item {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1;
     text-transform: capitalize;
     color: #6B8E23;
@@ -285,6 +285,7 @@ label.js-form-required.form-required {
 .form-required:after {
     content: "\f069"!important;
     font-family: FontAwesome;
+    font-size:10px;
     color: #b21111;
     vertical-align: 0;
     display: inline-block!important;
@@ -298,7 +299,8 @@ label.js-form-required.form-required {
 * Product pages and images, commerce stuff
 ******************************************/
 .logo {
-  padding: 10px;
+  padding: 0 50px;
+  float: left;
 }
 
 /*****************
