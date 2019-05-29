@@ -1,4 +1,4 @@
-uuid: d5a1db13-f657-4c24-97b4-c78f751b734a
+uuid: 0324ab1f-6747-474d-8f09-25dfbc2ee2bc
 langcode: en
 status: true
 dependencies:
@@ -10,15 +10,20 @@ id: commerce_product_variation.honey.attribute_net_wt_
 field_name: attribute_net_wt_
 entity_type: commerce_product_variation
 bundle: honey
-label: 'Net wt.'
+label: Size
 description: ''
-required: true
-translatable: false
+required: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:commerce_product_attribute_value'
   handler_settings:
     target_bundles:
-      - net_wt_
+      net_wt_: net_wt_
+    sort:
+      field: weight
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
 field_type: entity_reference

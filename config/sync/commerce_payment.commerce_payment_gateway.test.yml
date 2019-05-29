@@ -1,0 +1,18 @@
+uuid: e350330f-8579-4f1b-8712-4c450129f999
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: Test
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: 'Test only'
+    format: plain_text
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

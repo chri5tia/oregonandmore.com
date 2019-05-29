@@ -1,0 +1,33 @@
+uuid: 43dc68a8-4f8a-4d63-9fdf-17035adf6d2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.produce
+    - field.storage.commerce_product.field_brand
+    - taxonomy.vocabulary.brands
+  content:
+    - 'taxonomy_term:brands:799a1501-09dd-4095-9017-e5f4e403e15e'
+id: commerce_product.produce.field_brand
+field_name: field_brand
+entity_type: commerce_product
+bundle: produce
+label: Brand
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 799a1501-09dd-4095-9017-e5f4e403e15e
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      brands: brands
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

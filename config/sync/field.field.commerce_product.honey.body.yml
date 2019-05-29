@@ -1,4 +1,4 @@
-uuid: de2d0522-5adb-4dfc-8f0a-4cd6b4625f22
+uuid: 9ec4a606-d481-4b13-8d09-8a5271933e21
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - field.storage.commerce_product.body
   module:
     - text
-_core:
-  default_config_hash: ObNdu_OSuSmozy8UUi9cKY41dPs7s1ZOuWhG6Q5KdR8
 id: commerce_product.honey.body
 field_name: body
 entity_type: commerce_product
@@ -18,7 +16,7 @@ description: ''
 required: false
 translatable: true
 default_value: {  }
-default_value_callback: ''
+default_value_callback: null
 settings:
   display_summary: false
 field_type: text_with_summary

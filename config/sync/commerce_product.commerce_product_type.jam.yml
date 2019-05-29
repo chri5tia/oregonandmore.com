@@ -1,0 +1,12 @@
+uuid: 8059239b-902d-457a-a1e1-19f6ef33ba5c
+langcode: en
+status: true
+dependencies: {  }
+id: jam
+label: 'Jam, Sauce and Syrup'
+description: 'Add jams, jellies, sauces, and pepper jellies. Products that come in a jar where the product variety or flavor is a separate product.'
+variationType: jam
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

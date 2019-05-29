@@ -1,0 +1,19 @@
+uuid: d7ce5663-8a7e-4e76-948c-e707d8af7fba
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_autosku
+third_party_settings:
+  commerce_autosku:
+    mode: enabled
+    plugin: token
+    configuration:
+      pattern: '[commerce_product_variation:product_id] [commerce_product_variation:attribute_jar_size]'
+id: jam
+label: 'Jam, Sauce & Syrup'
+orderItemType: default
+generateTitle: true
+traits:
+  - purchasable_entity_shippable
+locked: false

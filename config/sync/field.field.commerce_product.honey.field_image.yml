@@ -1,4 +1,4 @@
-uuid: 3585ce98-f5b7-424a-b147-1145ba84942d
+uuid: 9344b1f3-258f-4fcd-95ad-246e33bdad83
 langcode: en
 status: true
 dependencies:
@@ -28,11 +28,11 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: b8d18d6b-a51d-41a3-8246-cf3daade9f0d
+    uuid: ''
     alt: ''
     title: ''
-    width: 225
-    height: 225
+    width: null
+    height: null
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

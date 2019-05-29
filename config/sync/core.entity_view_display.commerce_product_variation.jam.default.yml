@@ -1,0 +1,31 @@
+uuid: 6e74d3f0-d3fa-4892-a179-a3ec1a166ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.jam
+    - field.field.commerce_product_variation.jam.attribute_jar_size
+    - field.field.commerce_product_variation.jam.weight
+  module:
+    - commerce_price
+id: commerce_product_variation.jam.default
+targetEntityType: commerce_product_variation
+bundle: jam
+mode: default
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  attribute_jar_size: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true
+  weight: true

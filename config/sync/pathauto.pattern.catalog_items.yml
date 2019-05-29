@@ -6,19 +6,18 @@ dependencies:
     - ctools
     - taxonomy
 id: catalog_items
-label: 'Catalog items'
+label: 'Catalog items: Brands'
 type: 'canonical_entities:taxonomy_term'
-pattern: 'catalog/[term:name]'
+pattern: '[term:vocabulary]/[term:name]'
 selection_criteria:
-  d08d4953-aa05-44b3-af02-90c51f6a8279:
+  ded2312b-8293-4c03-9e03-0ac2cf32d1e1:
     id: 'entity_bundle:taxonomy_term'
     bundles:
       brands: brands
-      categories: categories
     negate: false
     context_mapping:
       taxonomy_term: taxonomy_term
-    uuid: d08d4953-aa05-44b3-af02-90c51f6a8279
+    uuid: ded2312b-8293-4c03-9e03-0ac2cf32d1e1
 selection_logic: and
 weight: -5
 relationships: {  }

@@ -1,11 +1,11 @@
-uuid: 24a182f4-abee-4e4a-90d8-dedb99a40495
+uuid: 16a80c31-de99-476e-8e77-4cbddbca17ca
 langcode: en
 status: true
 dependencies:
   module:
     - commerce_product
-id: commerce_product_variation.attribute_flavor
-field_name: attribute_flavor
+id: commerce_product_variation.field_honey_variety
+field_name: field_honey_variety
 entity_type: commerce_product_variation
 type: entity_reference
 settings:
@@ -13,7 +13,7 @@ settings:
 module: core
 locked: false
 cardinality: 1
-translatable: false
+translatable: true
 indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

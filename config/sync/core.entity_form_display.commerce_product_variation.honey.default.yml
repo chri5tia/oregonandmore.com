@@ -1,52 +1,57 @@
-uuid: d049df43-fe2d-49f5-bcf1-a9538ec616f4
+uuid: 2c4cf318-0b75-4775-b276-9bef8765de3f
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.honey
-    - field.field.commerce_product_variation.honey.attribute_flavor
+    - field.field.commerce_product_variation.honey.attribute_jar_size
     - field.field.commerce_product_variation.honey.attribute_net_wt_
+    - field.field.commerce_product_variation.honey.field_honey_variety
     - field.field.commerce_product_variation.honey.weight
   module:
     - commerce_price
     - physical
-_core:
-  default_config_hash: tPYXAFcoBHG1jtgfl021t-ns7EE7da_S-o2zfS7aLUQ
 id: commerce_product_variation.honey.default
 targetEntityType: commerce_product_variation
 bundle: honey
 mode: default
 content:
-  attribute_flavor:
+  attribute_jar_size:
     type: options_select
-    weight: 1
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
   attribute_net_wt_:
-    type: options_select
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    type: options_select
+    region: content
+  field_honey_variety:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   price:
     type: commerce_price_default
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   status:
     type: boolean_checkbox
-    weight: 4
     settings:
       display_label: true
-    third_party_settings: {  }
+    weight: 4
     region: content
+    third_party_settings: {  }
   weight:
     type: physical_measurement_default
     weight: 3
     settings:
-      default_unit: ''
+      default_unit: oz
       allow_unit_change: true
     third_party_settings: {  }
     region: content

@@ -1,0 +1,31 @@
+uuid: b66e04b6-ad6f-40ab-bd63-53592a1b3180
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.produce
+    - field.field.commerce_product_variation.produce.attribute_net_wt_
+    - field.field.commerce_product_variation.produce.weight
+  module:
+    - commerce_price
+id: commerce_product_variation.produce.default
+targetEntityType: commerce_product_variation
+bundle: produce
+mode: default
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  attribute_net_wt_: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true
+  weight: true

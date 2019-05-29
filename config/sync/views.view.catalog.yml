@@ -48,23 +48,26 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: full
         options:
           items_per_page: 9
           offset: 0
           id: 0
-          total_pages: null
+          total_pages: 3
           tags:
-            previous: ‹‹
-            next: ››
+            previous: ''
+            next: ''
+            first: ''
+            last: ''
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
             items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
+            items_per_page_options_all: true
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
+          quantity: 9
       style:
         type: grid
         options:
@@ -160,7 +163,8 @@ display:
           group: 1
       sorts: {  }
       title: ''
-      header:
+      header: {  }
+      footer:
         view:
           id: view
           table: views
@@ -172,7 +176,6 @@ display:
           view_to_insert: 'taxonomy_term_description:block_1'
           inherit_arguments: true
           plugin_id: view
-      footer: {  }
       empty: {  }
       relationships:
         field_categories:
@@ -223,6 +226,7 @@ display:
           entity_field: tid
           plugin_id: taxonomy
       display_extenders: {  }
+      use_ajax: false
     cache_metadata:
       max-age: -1
       contexts:

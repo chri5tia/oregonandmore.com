@@ -1,4 +1,4 @@
-uuid: 1d7e27c2-f627-4cc9-b055-25f8291531d2
+uuid: b89fde62-d792-4951-9ee6-0d294154c4b1
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ entity_type: commerce_product
 bundle: honey
 label: Brand
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
@@ -24,6 +24,6 @@ settings:
     sort:
       field: name
       direction: asc
-    auto_create: true
+    auto_create: false
     auto_create_bundle: ''
 field_type: entity_reference

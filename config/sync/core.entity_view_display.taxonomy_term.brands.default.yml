@@ -6,6 +6,7 @@ dependencies:
     - field.field.taxonomy_term.brands.field_category_body
     - field.field.taxonomy_term.brands.field_header
     - field.field.taxonomy_term.brands.field_logo
+    - image.style.large
     - taxonomy.vocabulary.brands
   module:
     - image
@@ -35,7 +36,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image

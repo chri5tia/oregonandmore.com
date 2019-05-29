@@ -1,4 +1,4 @@
-uuid: 15852196-3dbd-4caa-b103-2096c59c1ae9
+uuid: 297a9791-85b8-4e30-9c59-5c69d7471aab
 langcode: en
 status: true
 dependencies:
@@ -10,22 +10,19 @@ dependencies:
     - field.field.commerce_product.honey.field_image
     - field.field.commerce_product.honey.stores
     - field.field.commerce_product.honey.variations
-    - image.style.medium
   module:
     - commerce_product
     - image
     - text
-_core:
-  default_config_hash: gT03TFcuSod4d9uPQNs_gqK1F1QZ0Ray5CBYW0BNLnk
 id: commerce_product.honey.default
 targetEntityType: commerce_product
 bundle: honey
 mode: default
 content:
   body:
+    label: hidden
     type: text_default
     weight: 2
-    label: hidden
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -38,19 +35,19 @@ content:
     type: entity_reference_label
     region: content
   field_categories:
-    type: entity_reference_label
     weight: 5
-    region: content
     label: hidden
     settings:
       link: true
     third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_image:
     weight: 1
     label: hidden
     settings:
-      image_style: medium
-      image_link: content
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
     type: image
     region: content

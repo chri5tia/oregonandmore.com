@@ -1,0 +1,7 @@
+uuid: 515a9720-183d-4b0e-96b8-99c0432b9579
+langcode: en
+status: true
+dependencies: {  }
+id: jar_size
+label: 'Jar size'
+elementType: select
