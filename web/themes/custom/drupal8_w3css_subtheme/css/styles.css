@@ -303,6 +303,10 @@ label.js-form-required.form-required {
   float: left;
 }
 
+.header {
+  border: 1px solid black;
+}
+
 /*****************
 * Footer Section *
 *****************/
