@@ -6,7 +6,13 @@ dependencies:
     - commerce_store.commerce_store_type.online
   module:
     - address
+    - field_layout
+    - layout_discovery
     - path
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: jgswLhX3dBTurXMCMB2xRcubXL1S2-b3jqQhgbxfUvk
 id: commerce_store.online.default
@@ -60,6 +66,12 @@ content:
       display_label: true
     weight: 3
     region: content
+    third_party_settings: {  }
+  shipping_countries:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
     third_party_settings: {  }
   tax_registrations:
     type: options_select

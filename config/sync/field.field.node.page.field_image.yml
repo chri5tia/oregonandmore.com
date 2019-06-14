@@ -1,17 +1,17 @@
-uuid: 2aefaa72-750f-44c7-b2b5-68a5cab4f831
+uuid: e2e1893a-0657-4149-8764-eb43c312f6c3
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
-    - node.type.carousel_item
+    - node.type.page
   module:
     - image
-id: node.carousel_item.field_image
+id: node.page.field_image
 field_name: field_image
 entity_type: node
-bundle: carousel_item
-label: Image
+bundle: page
+label: 'Header Image'
 description: ''
 required: false
 translatable: true
@@ -25,7 +25,7 @@ settings:
   min_resolution: ''
   alt_field: true
   alt_field_required: true
-  title_field: true
+  title_field: false
   title_field_required: false
   default_image:
     uuid: ''

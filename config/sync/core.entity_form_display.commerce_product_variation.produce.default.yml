@@ -8,7 +8,13 @@ dependencies:
     - field.field.commerce_product_variation.produce.weight
   module:
     - commerce_price
+    - field_layout
+    - layout_discovery
     - physical
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: commerce_product_variation.produce.default
 targetEntityType: commerce_product_variation
 bundle: produce
@@ -45,5 +51,4 @@ hidden:
   created: true
   list_price: true
   sku: true
-  title: true
   uid: true

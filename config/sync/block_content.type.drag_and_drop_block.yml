@@ -1,0 +1,10 @@
+uuid: b74e24c8-4e7e-47d5-bd31-7d549de5fd60
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aFJykUDl40bK0HrlLReHpMD-4PbxxhTKUN1XyiA3TQ8
+id: drag_and_drop_block
+label: 'Drag and Drop Block'
+revision: 0
+description: 'Advanced page with visual page building tools. Powered by Glazed Builder.'

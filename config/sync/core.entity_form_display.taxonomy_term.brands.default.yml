@@ -9,9 +9,15 @@ dependencies:
     - image.style.thumbnail
     - taxonomy.vocabulary.brands
   module:
+    - field_layout
     - image
+    - layout_discovery
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: taxonomy_term.brands.default
 targetEntityType: taxonomy_term
 bundle: brands

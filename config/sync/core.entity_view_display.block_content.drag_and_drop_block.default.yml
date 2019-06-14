@@ -1,0 +1,24 @@
+uuid: 9b5784df-e048-4439-ae36-88fdfe2f8e07
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drag_and_drop_block
+    - field.field.block_content.drag_and_drop_block.body
+  module:
+    - text
+_core:
+  default_config_hash: 93TbwlgiHlbj2c32-jtb8-R1rI4bs7XbVqUr-q46AZ0
+id: block_content.drag_and_drop_block.default
+targetEntityType: block_content
+bundle: drag_and_drop_block
+mode: default
+content:
+  body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

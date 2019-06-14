@@ -6,7 +6,13 @@ dependencies:
     - block_content.type.parallax
     - field.field.block_content.parallax.body
   module:
+    - field_layout
+    - layout_discovery
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: block_content.parallax.default
 targetEntityType: block_content
 bundle: parallax

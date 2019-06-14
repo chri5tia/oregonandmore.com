@@ -11,7 +11,7 @@ dependencies:
 id: freeshipping
 theme: drupal8_w3css_subtheme
 region: sidebar_second
-weight: -7
+weight: -10
 provider: null
 plugin: 'block_content:db69ea11-85d6-46d4-b058-5f2da3efc6eb'
 settings:

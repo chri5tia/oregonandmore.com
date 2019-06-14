@@ -13,10 +13,16 @@ dependencies:
     - image.style.thumbnail
   module:
     - commerce
+    - field_layout
     - image
     - inline_entity_form
+    - layout_discovery
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: commerce_product.jerky.default
 targetEntityType: commerce_product
 bundle: jerky

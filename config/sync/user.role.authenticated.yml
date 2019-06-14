@@ -27,4 +27,5 @@ permissions:
   - 'view commerce_store'
   - 'view default commerce_product'
   - 'view jerky commerce_product'
+  - 'view media'
   - 'view own commerce_order'

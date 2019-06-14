@@ -12,7 +12,7 @@ dependencies:
 id: parallax01
 theme: drupal8_w3css_subtheme
 region: content
-weight: -9
+weight: -6
 provider: null
 plugin: 'block_content:e0916bb2-df24-4f90-8cad-db7c85ac4e23'
 settings:

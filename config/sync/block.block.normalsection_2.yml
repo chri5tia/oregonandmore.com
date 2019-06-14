@@ -12,7 +12,7 @@ dependencies:
 id: normalsection_2
 theme: drupal8_w3css_subtheme
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: 'block_content:cc6855a2-1093-487a-8773-6b48361ceb1e'
 settings:
